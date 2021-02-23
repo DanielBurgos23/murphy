@@ -1,0 +1,86 @@
+body {
+    background-color:hsl(0, 3%, 62%);
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  p {
+    padding: 15px;
+    font-size: 1.5rem;
+  }
+  
+  .frase1 {
+    position: absolute;
+    top: 8%;
+    left: 10%;
+    width: 75%;
+    height: 10%;
+    border: hsl(40, 39%, 46%) 2px solid;
+    background-color: hsl(40, 67%, 68%);
+    text-align: center;
+  }
+  
+  .frase2 {
+    position: absolute;
+    top: 38%;
+    left: 30%;
+    width: 35%;
+    height: 30%;
+    z-index: 2;
+    border: hsl(120, 34%, 39%) 3px solid;
+    background-color: hsl(120, 40%, 65%);
+    text-align: center;
+  }
+  
+  .frase3 {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 35%;
+    height: 25%;
+    border: hsl(60, 58%, 47%) 3px solid;
+    background-color: hsl(60, 100%, 75%);
+    text-align: left;
+  }
+  
+  .frase4 {
+    position: absolute;
+    top: 25%;
+    right: 8%;
+    width: 35%;
+    height: 25%;
+    border: hsl(180, 25%, 70%) 3px solid;
+    background-color: hsl(180, 100%, 90%);
+    text-align: right;
+  }
+  
+  .frase5 {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    width: 35%;
+    height: 25%;
+    border: hsl(300, 36%, 78%) 3px solid;
+    background-color: hsl(300, 21%, 58%);
+    text-align: left;
+  }
+  
+  .frase6 {
+    position: absolute;
+    bottom: 5%;
+    right: 8%;
+    width: 35%;
+    height: 25%;
+    border: hsl(0, 27%, 59%) 3px solid;
+    background-color: hsl(0, 64%, 78%);
+    text-align: right;
+  }
+  
+  p:hover {
+    z-index: 3;
+  }
